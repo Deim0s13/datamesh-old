@@ -1,3 +1,6 @@
+lvms:
+  volumeGroup: vgdatamesh
+
 serviceAccountName: sc-annotater
 rbac:
   roles:
