@@ -1,6 +1,6 @@
 kind: Job
 apiVersion: batch/v1
-netadata:
+metadata:
   name: job-annotate-sc
   namespace: openshift-storage
 spec:
