@@ -10,6 +10,7 @@ metadata:
 kind: Role
 metadata:
   name: {{ $value.name }}
+  name: {{ $value.scope.namespace }}
 {{- end }}
   annotations:
     argocd.argoproj.io/hook: PreSync
